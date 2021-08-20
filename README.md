@@ -1,4 +1,4 @@
-# Spotify challenge
+# challenge Battleship game
 
 challenge Battleship game React and TypeScript
 
