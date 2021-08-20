@@ -1,0 +1,1 @@
+export const STORAGE_STATE_GLOBAL = "STORAGE_STATE_GLOBAL" as const
