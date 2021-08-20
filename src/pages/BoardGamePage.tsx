@@ -1,5 +1,6 @@
 import Board from "../components/Board"
 import Modal from "../components/Common/Modal/Modal"
+import InfoTurns from "../components/InfoTurns"
 import LevelSelected from "../components/Level/LevelSelected/Index"
 import ResultGame from "../components/ResultGame"
 import { configEnv } from "../config/configEnv"
@@ -15,6 +16,7 @@ const BoardGamePage = () => {
   return (
     <>
       <LevelSelected />
+      <InfoTurns ships={boardGame.ships} turnUsed={boardGame.turnsUsed} />
       <Board
         matrix={boardGame.board}
         onClickCell={handleClickCell}

@@ -16,6 +16,7 @@ export interface IBoardState {
   turnsUsed: number
   shootDown: number
   countBlockShip: number
+  ships: number
   resultGame: {
     win: boolean
   } | null

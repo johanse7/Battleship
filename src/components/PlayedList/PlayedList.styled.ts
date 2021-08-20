@@ -6,4 +6,10 @@ const PlayedListStyled = styled.section`
   gap: 1rem;
 `
 
+export const TittleNoResultStyled = styled.p`
+  font-size: 2rem;
+  color: ${({ theme }) => theme.palette.common.grey20};
+  text-align: center;
+`
+
 export default PlayedListStyled

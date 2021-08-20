@@ -26,5 +26,5 @@ test("renders content", () => {
     </ThemeProvider>,
   )
 
-  // expect(component).tohave(playedlist.length)
+  expect(component.container.querySelectorAll("article")).toHaveLength(playedlist.length)
 })

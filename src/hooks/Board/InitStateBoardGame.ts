@@ -38,6 +38,7 @@ const InitStateBoardGame = ({ size, maxLengthShips }: IBoardConfig) => {
       shootDown: 0,
       turnsUsed: 0,
       countBlockShip,
+      ships: ships.length,
     }
   }
 

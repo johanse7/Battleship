@@ -22,7 +22,6 @@ const CellStyled = styled.article<{ isSelected?: boolean; hasShip?: boolean }>`
   ${respondTo.xs`
     height: 46px;
     width: 46px;
-    
   `}
 `
 

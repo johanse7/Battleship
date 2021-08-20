@@ -29,5 +29,5 @@ npm run start
 ```
 
 ```
-url site: https://nostalgic-galileo-b8ed85.netlify.app/
+url site: https://stoic-franklin-8482a5.netlify.app/
 ```
